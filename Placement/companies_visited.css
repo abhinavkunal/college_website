@@ -1,0 +1,16 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.my_card {
+    transition: all 0.5s;
+    box-shadow: 0 0 15px #00000054;
+}
+.my_card:hover {
+    transform: scale(1.15);
+    z-index: 100;
+}
+@media (max-width: 800px) {
+  .my_card {
+    font-size: 1rem;
+  }
+}

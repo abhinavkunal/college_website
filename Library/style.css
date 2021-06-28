@@ -1,0 +1,119 @@
+html, body{
+	font-family: 'Open Sans', sans-serif;
+	background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('books.jpg');
+	/* background-color: #9f86c0; */
+}
+/* 
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Mono', monospace;
+*/
+.book_head_open{
+	background-color:#2a6f97;
+	font-family: 'Roboto Mono', monospace;
+	margin-bottom: 15px !important;
+	font-size: 18px;
+}
+.book_list_open{
+	background-color:#a9d6e5;
+}
+.book_head_close{
+	background-color:#2a6f97;
+	font-family: 'Roboto Mono', monospace;
+	margin-bottom: 15px !important;
+	font-size: 18px;
+}
+.book_list_close{
+	background-color:#a9d6e5;
+}
+.button{
+	
+	margin-top:10px;
+	border:0.1em solid #000000;
+	padding:0.4em;
+	border-radius:0.2em;
+	text-align:center;
+	box-sizing:border-box;
+	color:black;
+}
+.btn{
+	font-weight: bold;
+	border-radius: 10px;
+	color: white;
+	border: 1px solid white;
+	background-color: #468faf;
+	box-shadow: 2px 2px 2px 2px #73bfdc;
+	/* box-shadow: 0 3px 10px rgba(0,0,0,0.8); */
+	/* background-color: #2a6f97; */
+}
+.btn:hover{
+	color: whitesmoke;
+	background-color: #d1495b;
+}
+.book_head_open, .book_head_close, .book_list_open,
+.book_list_close{
+	/* margin:0; */
+	margin-bottom: 5px;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-radius:10px;
+}
+
+#fadeshow{
+	display:none;
+}
+@media only screen and (max-width: 576px){
+	#fadehide{
+		display:none;
+	}
+	#fadeshow{
+		display: initial;
+	}
+}
+@media only screen and (min-width: 960px){
+	body{
+		margin: 0 15%;
+	}
+}
+
+h4{
+	margin:30px 0 10px 0;
+	font-family: 'Roboto Mono', monospace;
+	color: whitesmoke;
+	font-size: 30px;
+	letter-spacing: 1.5px;
+}
+
+.library{
+	margin:5px;
+}
+.book_list_close, .book_list_open{
+	transition:.2s ease-out;
+	border-bottom: 3px solid transparent;
+	
+}
+.book_list_close:hover{
+	box-shadow: 0 3px 10px rgba(0,0,0,0.8);
+	transform: translate3d(0,-3px,0);
+	font-size:1.1em;
+	position:relative;
+	background-color: #89c2d9;
+	font-weight: bold;
+}
+.book_list_open:hover{
+	box-shadow: 0 3px 10px rgba(0,0,0,0.8);
+	transform: translate3d(0,-3px,0);
+	font-size:1.1em;
+	position:relative;
+	background-color: #89c2d9;
+	font-weight: bold;
+}
+span{
+	color:red;
+}
+/* .test{
+	background-color: blanchedalmond;
+	background-image: url('library.jpg');
+	margin-left:-300px;
+	margin-right: -300px;
+	height: 350px;
+} */

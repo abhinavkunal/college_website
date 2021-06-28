@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    /* background-color: #adb5bd; */
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+@media (max-width: 767px) {
+    .navbar_align_left {
+      justify-content: left !important;
+    }
+}
